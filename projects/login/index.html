@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            background-color: whitesmoke;
+        }
+
+        ul {
+            list-style: none;
+            background-color: #8282EB;
+            list-style-type: none;
+            height: 35px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+
+        }
+
+        li {
+            padding: 8px 14px 8px 14px;
+            display: inline;
+            float: left
+        }
+
+        li a {
+            font-family: sans-serif;
+            font-size: 13px;
+            font-weight: lighter;
+            color: whitesmoke;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        h2 {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            font-family: sans-serif;
+            font-size: 40px;
+            font-weight: lighter;
+        }
+
+        #title {
+            font-size: 15px;
+            padding-right: 30px;
+        }
+
+        #grid {
+            display: grid;
+            text-align: center;
+
+
+        }
+
+        #bot {
+            margin-top: 450px;
+            border-bottom: 2px solid #d2d2d2;
+        }
+
+        #id {
+            width: 400px;
+            height: 30px;
+            margin: auto;
+            margin-bottom: 4px;
+        }
+
+        #pw {
+            width: 400px;
+            height: 30px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        #button_log {
+            font-family: sans-serif;
+            background-color: #8282EB;
+            margin-top: 100px;
+            width: 250px;
+            height: 40px;
+            display: block;
+            margin: auto;
+            margin-bottom: 3px;
+            border-radius: 20px;
+
+            /* 버튼 가운데 정렬*/
+
+        }
+
+        #button_sign {
+            font-family: sans-serif;
+            background-color: #D2E1FF;
+            width: 250px;
+            height: 40px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a id="title" href="index.html">Login for Login</a></li>
+        <li><a href="index.html">ID</a></li>
+        <li><a href="index.html">Password</a></li>
+        <li><a href="index.html">name</a></li>
+        <li><a href="index.html">age</a></li>
+
+    </ul>
+
+    <div id="grid">
+        <h2>Login에 로그인 하세요</h2>
+        <input type="text" id="id" name="id" placeholder="    Input ID">
+
+        <br>
+
+        <input type="text" id="pw" name="pw" placeholder="    Input Password">
+
+        <br>
+
+        <label><input type="checkbox" value="auto_log">로그인 상태 유지</label>
+
+        <br>
+
+        <button id="button_log" type="submit"> 로그인 </button>
+
+        <br>
+
+        <button id="button_sign" type="submit"> 회원가입 </button>
+    </div>
+    <div id="bot"></div>
+</body>
+
+</html>
