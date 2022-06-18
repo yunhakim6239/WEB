@@ -1,2 +1,99 @@
 @charset "utf-8";
 
+body {
+            margin: 0;
+            background-color: whitesmoke;
+        }
+
+        ul {
+            list-style: none;
+            background-color: #8282EB;
+            list-style-type: none;
+            height: 35px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+
+        }
+
+        li {
+            padding: 8px 14px 8px 14px;
+            display: inline;
+            float: left
+        }
+
+        li a {
+            font-family: sans-serif;
+            font-size: 13px;
+            font-weight: lighter;
+            color: whitesmoke;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        h2 {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            font-family: sans-serif;
+            font-size: 40px;
+            font-weight: lighter;
+        }
+
+        #title {
+            font-size: 15px;
+            padding-right: 30px;
+        }
+
+        #grid {
+            display: grid;
+            text-align: center;
+
+
+        }
+
+        #bot {
+            margin-top: 450px;
+            border-bottom: 2px solid #d2d2d2;
+        }
+
+        #id {
+            width: 400px;
+            height: 30px;
+            margin: auto;
+            margin-bottom: 4px;
+        }
+
+        #pw {
+            width: 400px;
+            height: 30px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        #button_log {
+            font-family: sans-serif;
+            background-color: #8282EB;
+            margin-top: 100px;
+            width: 250px;
+            height: 40px;
+            display: block;
+            margin: auto;
+            margin-bottom: 3px;
+            border-radius: 20px;
+
+            /* 버튼 가운데 정렬*/
+
+        }
+
+        #button_sign {
+            font-family: sans-serif;
+            background-color: #D2E1FF;
+            width: 250px;
+            height: 40px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+
+        }
